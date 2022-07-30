@@ -5,9 +5,7 @@ import FooterVue from "@/layouts/Footer/Footer.vue";
 </script>
 
 <template>
-  <header-vue></header-vue>
-  <content-vue></content-vue>
-  <footer-vue></footer-vue>
+ <div>测试</div>
 </template>
 
 <style lang="less" scoped></style>

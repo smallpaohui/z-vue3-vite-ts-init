@@ -9,7 +9,7 @@ const server = axios.create({
 // 请求拦截
 server.interceptors.request.use((config: any) => {
   nprogress.start();
-  if (config.url !== "/api") {
+  if (config.url === "/api") {
     config.headers.Authorization = useUserStore().token;
   }
   return config;

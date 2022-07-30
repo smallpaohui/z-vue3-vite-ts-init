@@ -17,8 +17,8 @@ export default defineConfig({
     open: true,
     port: 8888,
     host: "0.0.0.0",
-    // proxy: {
-    //   "/api": "http://localhost:3000/",
-    // },
+    proxy: {
+      "/api": "http://150.158.41.119:8083/",
+    },
   },
 });
